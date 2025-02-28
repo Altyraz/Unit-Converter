@@ -8,7 +8,7 @@ class ConvertUnits:
         self.root = Tk()
         self.root.configure(background='white')
         self.root.title("Unit Converter")
-        self.root.geometry("800x500")
+        self.root.geometry("800x550")
 
 
         self.lblHeader = Label(self.root, text="Choose the units from and to which you want to convert", bg=
