@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 import math
+import sys
 
 
 class ConvertUnits:
