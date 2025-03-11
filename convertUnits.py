@@ -12,7 +12,7 @@ class ConvertUnits:
         self.root.title("Unit Converter")
         self.root.geometry("800x550")
 
-
+        #add some labels and other elements to the window
         self.lblHeader = Label(self.root, text="Choose the units from and to which you want to convert", bg=
                                "white", fg="dark grey", font=("Arial", 18))
         self.lblHeader.grid(row=1, column=1, padx=80, pady=10)
