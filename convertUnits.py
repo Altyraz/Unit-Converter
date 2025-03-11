@@ -5,6 +5,7 @@ import sys
 
 
 class ConvertUnits:
+    #initialize the window and some settings
     def __init__(self) -> None:
         self.root = Tk()
         self.root.configure(background='white')
@@ -19,5 +20,5 @@ class ConvertUnits:
                                     ("Arial", 14))
         self.lblinitialUnit.grid(row=2, column=1, padx=100, pady=10)
 
-
+        #run the program and show the window
         self.root.mainloop()
